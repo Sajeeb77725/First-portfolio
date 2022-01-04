@@ -1,0 +1,66 @@
+body {
+  font-family: "Poppins", sans-serif;
+  /* font-size: 20px; */
+  margin: 0px;
+}
+h1 {
+  font-size: 40px;
+}
+.s-color {
+  color: orangered;
+}
+.felixble {
+  display: flex;
+  margin-bottom: 100px;
+}
+.helf-width {
+  width: 50%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.helf-width img {
+  width: 80%;
+  padding-top: 3%;
+}
+.hire-button {
+  background-image: linear-gradient(orange, tomato);
+  color: white;
+  font-weight: 700;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+.top-banner {
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
+}
+.dream-big {
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.Experience-area {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.last-item {
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 10px;
+  box-shadow: 10px 10px 30px gray;
+  border-radius: 10px;
+}
+#Baby {
+  border-left: 10px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
+}
+#full-stack {
+  border-left: 10px solid;
+  border-image: linear-gradient(rgb(226, 42, 180), tomato);
+  border-image-slice: 1;
+}
+footer p {
+  text-align: center;
+}
